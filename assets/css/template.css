@@ -355,7 +355,7 @@ aside a {
   margin-bottom: 20px;
 }
 
-@media (min-width: 600px) {
+@media (max-width:800px) {
   .banner_headline h1 {
     font-size: 55px;
   }
@@ -405,6 +405,7 @@ aside a {
   }
   .logo {
     padding-left: 20px;
+
   }
   .menuMobile {
     display: flex;
