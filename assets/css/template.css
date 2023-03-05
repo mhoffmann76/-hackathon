@@ -355,7 +355,7 @@ aside a {
   margin-bottom: 20px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .banner_headline h1 {
     font-size: 55px;
   }
