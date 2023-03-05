@@ -11,6 +11,7 @@
     <script src="assets/js/index.js" defer></script>
 
 
+
     <title>Reprograma-se</title>
 </head>
 
@@ -111,7 +112,7 @@
 
 
                     <article>
-                        <a href="" id="t">
+                        <a href="#" id="t">
                             <div class="news_data">
 
 
@@ -139,7 +140,7 @@
 
 
                     <article>
-                        <a href="">
+                        <a href="#">
                             <div class="news_data">
 
                             </div>
@@ -161,7 +162,7 @@
                     </article>
 
                     <article>
-                        <a href="">
+                        <a href="#">
                             <div class="news_data">
 
 
@@ -271,7 +272,7 @@
         <div class="container flexColumn">
             <div class="footer_menu">
                 <div class="fm_1">
-                    <a href="">
+                    <a href="https://www.ifes.edu.br/" target="_blank">
                         <img src="assets/img/ifes.png" />
 
 
@@ -280,7 +281,7 @@
 
                 </div>
                 <div class="fm_2">
-                    <a href="">
+                    <a href="https://action.org.es/" target="_blank">
                         <img src="assets/img/action.png" />
                     </a>
                 </div>
@@ -306,20 +307,14 @@
             </div>
 
     </footer>
-    <script src="/node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js "></script>
+
+    <script src="/node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
 
     <script>
 
-        var scroll = new SmoothScroll('a[href*="#"]', {
+        var scroll = new SmoothScroll('a[href*="#"]', 'a[href*="_blank"]',{
             speed: 500
-        });
-        AOS.init({
-            offset: 200,
-            duration: 1200,
-            easing: 'ease-in',
-            delay: 500,
-
-
         });
 
 
