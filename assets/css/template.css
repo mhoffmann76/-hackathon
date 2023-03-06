@@ -173,11 +173,11 @@ nav a:hover {
 }
 
 .banner_options {
-  height: 100%;
+ 
   display: flex;
 
   margin-top: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .banner1,
@@ -208,13 +208,22 @@ nav a:hover {
 
 .banner_options a {
   display: inline-block;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   color: #ffffff;
   font-size: 13px;
   text-decoration: none;
   padding: 5px;
 }
+.banner_options a:hover{
+  border-radius: 16px;
 
+ 
+  text-decoration: none;
+ background-color: darkcyan;
+  font-size: 18px;
+  transition: all 0.5s;
+  
+}
 .container1 {
   display: flex;
   justify-content: space-between;
@@ -446,6 +455,8 @@ aside a {
 }
 .btn:hover {
   border-radius: 16px;
+ 
+  
 }
 
 .fundo-form {
