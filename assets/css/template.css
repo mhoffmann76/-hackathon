@@ -475,7 +475,9 @@ aside a {
   .banner_options {
     height: auto;
     flex-direction: column;
+   
   }
+ 
 
   .banner_headline {
     padding: 20px;
