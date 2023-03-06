@@ -463,7 +463,7 @@ aside a {
   background-image: url("../img/programacao.png");
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .banner_headline h1 {
     font-size: 55px;
   }
